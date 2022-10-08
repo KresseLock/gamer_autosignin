@@ -5,8 +5,8 @@ import time
 import requests
 import json
 
-with open(os.getcwd() + "/config.json", "r", encoding="utf-8") as f:
-    config = json.load(f)
+#with open(os.getcwd() + "/config.json", "r", encoding="utf-8") as f:
+#    config = json.load(f)
 
 
 def _autosign(sess):
