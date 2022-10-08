@@ -94,8 +94,8 @@ def _login(data):
         'accept-encoding': 'gzip'
     }
     _autosign(sess)
-    _autoanswer(sess)
-    _guildsign(sess)
+    #_autoanswer(sess)
+    #_guildsign(sess)
 
 
 if __name__ == "__main__":
