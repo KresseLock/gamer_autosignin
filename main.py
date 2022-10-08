@@ -100,8 +100,8 @@ def _login(data):
 
 if __name__ == "__main__":
     data = {
-        'uid': config['account']['username'],
-        'passwd': config['account']['password'],
+        'uid': os.environ['UID'],
+        'passwd': os.environ['PASSWD'],
         'vcode': '7045'
     }
     _login(data)
