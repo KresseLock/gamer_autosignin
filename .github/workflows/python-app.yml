@@ -30,6 +30,7 @@ jobs:
         pip install requests
         pip install chromedriver_autoinstaller
         pip install httpx
+        pip install selenium
     - name: SignIN
       run: |
         python ./main.py
