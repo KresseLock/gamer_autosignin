@@ -57,8 +57,10 @@ sess = httpx.Client()
 
 def login():
     data = {
-        'uid': config['account']['username'],
-        'passwd': config['account']['password'],
+#        'uid': config['account']['username'],
+#        'passwd': config['account']['password'],        
+        'uid': os.environ['UID'],
+        'passwd': os.environ['PASSWD'],
         'vcode': '7045'
     }
     sess.headers.update(
