@@ -24,8 +24,8 @@ handler.setFormatter(logging.Formatter(FORMAT))
 
 logging.info('正在初始化')
 
-with open(os.getcwd() + "/config.json", "r", encoding="utf-8") as f:
-    config = json.load(f)
+#with open(os.getcwd() + "/config.json", "r", encoding="utf-8") as f:
+#    config = json.load(f)
 
 chromedriver_autoinstaller.install()
 chrome_options = Options()
