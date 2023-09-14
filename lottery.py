@@ -49,7 +49,7 @@ driver.find_element(By.XPATH, '//li[@data-value="english"]').click()
 driver.find_elements(
     By.XPATH, '//button[@class="mdc-button mdc-button--outlined mdc-ripple-upgraded"]')[-1].click()
 driver.find_elements(
-    By.XPATH, '//input[@class="mdc-text-field__input"]')[-1].send_keys(config['Buster_Api'])
+#    By.XPATH, '//input[@class="mdc-text-field__input"]')[-1].send_keys(config['Buster_Api'])
 driver.get('https://gamer.com.tw')
 
 sess = httpx.Client()
