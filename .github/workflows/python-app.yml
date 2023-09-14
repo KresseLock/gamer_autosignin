@@ -34,7 +34,7 @@ jobs:
         pip install pyvirtualdisplay
     - name: SignIN
       run: |
-        python ./main.py
+#        python ./main.py
         python ./lottery.py
       env:
         UID: ${{ secrets.UID }}
