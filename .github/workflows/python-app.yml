@@ -29,6 +29,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
         pip install chromedriver_autoinstaller
+        pip install httpx
     - name: SignIN
       run: |
         python ./main.py
